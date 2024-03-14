@@ -1,0 +1,45 @@
+.contenedor-principal{
+    min-height: 500px;
+    width: 40%;
+ 
+}
+
+.contenedor-input{
+    background-color: white;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.contenedor-tarea{
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    min-height: 300px;
+}
+
+.input-style{
+    border: none;
+    border-bottom: 1px solid lightgray;
+    width: 60%;
+
+    outline: none;
+}
+
+@media (max-width: 800px) {
+    .contenedor-principal{
+        min-height: 500px;
+        width: 80%;
+     
+    }
+  }
+
+  @media (min-width: 801px) {
+    .contenedor-principal{
+        min-height: 500px;
+        width: 40%;
+     
+    }
+  }

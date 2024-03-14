@@ -1,0 +1,18 @@
+.Tarea-completada{
+    background-color: greenyellow ;
+    height:50px;
+    width:700px;
+    background-color:'hotpink';
+    margin-block:'15px';
+    display:'flex';
+    justify-content:'space-between'
+}
+.Tarea-nocompletada{
+    background-color: pink ;
+    height:50px;
+    width:700px;
+    background-color:'hotpink';
+    margin-block:'15px';
+    display:'flex';
+    justify-content:'space-between'
+}
