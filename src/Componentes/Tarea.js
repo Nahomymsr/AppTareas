@@ -10,7 +10,7 @@ export function Tarea ({id,Descripcion,Completado,ManejadorEliminar,ManejadorCom
                 <div className='d-flex align-items-center'>
                 <input class="form-check-input me-1" type="checkbox" checked={Completado} onChange={() => {ManejadorCompletado(id)}}  id="firstCheckbox"></input>
                 </div>
-                <div class="mx-2" style={{textDecoration: Completado ?"line-through" : ""}}>{Descripcion}</div>
+                <div class="mx-2 d-flex align-items-center" style={{textDecoration: Completado ?"line-through" : ""}}>{Descripcion}</div>
             </div>
             <div className='d-flex align-items-center'>
             <button type="button" class="btn btn-danger p-1 p-md-2" style={{height:"fit-content"}} onClick={() => ManejadorEliminar(id)}><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3" viewBox="0 0 16 16">
